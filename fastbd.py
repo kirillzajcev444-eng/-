@@ -26,7 +26,7 @@ def init_db():
 
 init_db()
 
-# --- PYDANTIC СХЕМЫ ДЛЯ ВАЛИДАЦИИ ДАННЫХ (Для Next.js / TypeScript) ---
+# --- СХЕМЫ ДЛЯ ВАЛИДАЦИИ ДАННЫХ ---
 class OfferCreateSchema(BaseModel):
     seller_id: int = Field(..., description="ID продавца из Системы")
     skin_name: str = Field(..., min_length=2, description="Полное название предмета")
