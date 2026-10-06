@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 
 app = FastAPI(
     title="Fast db",
-    description="Демонстрационный модуль бэкенда для интеграции с фронтендом на Next.js",
+    description="Демонстрационный модуль бэкенда для интеграции с фронтендом.",
     version="1.0.0"
 )
 
